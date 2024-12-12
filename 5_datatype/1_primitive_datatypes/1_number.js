@@ -17,17 +17,16 @@
 // Number
 let integer = 123;
 let float = 3.14;
-let scientificNumber = 10e2;
+let scientific = 10e2;
 
 // BigInt: BigInt numbers can only perform operation with BigInt datatype
-
 // Creating BigInt number using BigInt() constructor
 let bigInt1 = BigInt(1000);
 
 // Creating BigInt number using `n` at the end of the number
 let bigInt2 = 1000n;
 
-// NaN: represent invalid value
+// NaN (Not a number): represent invalid value
 let notANumber = NaN;
 
 // Infinity: represent  infinite numeric values
