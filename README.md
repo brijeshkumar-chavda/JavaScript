@@ -188,6 +188,9 @@
        1. Executor Function
     6. Fetch
 
+How JavaScript execute
+Hoisting
+
 <!-- OOP -->
 
 1. Literal Object

@@ -8,8 +8,9 @@ var variable;
 variable = "value";
 
 // Redeclare
-var variable = "value";
-var variable = "value";
+// - As you can see your are using same variable name twice. But for value it will take latest updated value.
+var variable = "value1";
+var variable = "value2";
 
 // Reassigned
 var variable = "value1";

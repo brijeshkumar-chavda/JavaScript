@@ -15,21 +15,21 @@
 // Syntax
 // console.table(variable,array or Object);
 
-// Example: 1
-const variable1 = 1;
-const variable2 = 2;
-const variable3 = 3;
+// Example: 1 Passing array as argument
+const variable1 = "value 1";
+const variable2 = "value 2";
+const variable3 = "value 3";
 
-console.table([variable1, variable2, variable3]);
+console.table(variable1, variable2, variable3);
 
-// Example: 2
-const students = [
-  { name: "John", age: 20, grade: "A" },
-  { name: "Alice", age: 19, grade: "B" },
-  { name: "Bob", age: 21, grade: "C" },
+// Example: 2 Passing object as argument
+const variable = [
+  {key1: "value1"},
+  {key2: "value2"},
+  {key3: "value3"},
 ];
 
-console.table(students);
+console.table(variable);
 
 // Example: 3
 const object = {
