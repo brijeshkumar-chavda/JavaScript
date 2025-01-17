@@ -1,16 +1,10 @@
 // `this` Keyword
 
 // What
-// - "this" keyword refers to an object that is executing the current piece of code. It references the object that is executing the current function.
+// - `this` refers to the object that "owns" the currently executing code.
 
 // Note
-// The this keyword refers to different objects depending on how it is used:
-
-// 1. this -> Alone -> Global Object
-
-// 2. this -> In Regular Function -> Global Object/ Strict Mode: Undefine
-// 3. this -> Regular Function Inside Regular Function -> Global Object/ Strict Mode: Undefine
-// 4. this -> In Object Method (Method is Regular Function) -> Current Object
+// this == Current Context (loosely say: Current Object)
 
 // 5. this -> In Arrow Function -> Global Object
 // 6. this -> Arrow Function Inside Arrow Function -> Global object
@@ -19,21 +13,18 @@
 // TODO: In an event, this refers to the element that received the event.
 // TODO: Methods like call(), apply(), and bind() can refer this to any object.
 
-// 1. this -> Alone -> Global Object
-// - If `this` keyword use in global scope it will refer to the global object.
+// this -> Alone -> Global Object
 console.log(this);
 
-// REGULAR FUNCTION & `THIS` KEYWORD
-
-// 2. this -> In Regular Function -> Global Object
-// - If `this` keyword use inside the regular function it will refer to global object.
+// this -> Unstrict Mode -> In Regular Function -> Global Object
+// this -> Strict Mode -> In Regular Function -> Undefined
 function regularFunction() {
   return console.log(this);
 }
 console.log(regularFunction());
 
-// 3. this -> Regular Function Inside Regular Function -> Global Object
-// - If `this` keyword use inside the regular function. Which also wrap with the regular function. It will refer to global object.
+// this -> Unstrict Mode -> Regular Function Inside Regular Function -> Global Object
+// this -> Strict Mode -> Regular Function Inside Regular Function -> Undefined
 function outerRegularFunction() {
   function innerRegularFunction() {
     return console.log(this);
@@ -42,8 +33,7 @@ function outerRegularFunction() {
 }
 console.log(outerRegularFunction());
 
-// 4. this -> In Object Method (Method is Regular Function) -> Current Object
-// - If `this` keyword use inside the object's method which is regular function it will refer to the object it self.
+// this -> Unstrict/ Strict Mode -> Object's Method -> Current Object
 const object = {
   key: "value",
   method: function () {
@@ -56,7 +46,9 @@ console.log(object.method());
 // ARROW FUNCTION & `THIS` KEYWORD
 
 // Note
-// - Arrow functions are a special type of function in JavaScript. One key characteristic of arrow functions is that they do not have their own this context. Instead, they inherit this from the surrounding code where they are defined.
+// -> Arrow functions are a special type of function in JavaScript.
+// -> One key characteristic of arrow functions is that they do not have their own this context.
+// -> Instead, they inherit this from the surrounding code where they are defined.
 
 // 5. this -> In Arrow Function -> Global Object
 // - If `this` keyword use inside the arrow function it will refer to global object.
@@ -106,5 +98,3 @@ function Person(name) {
 }
 const person1 = new Person("Alice");
 console.log(person1.name); // this refers to the new Person instance, person1.
-
-
