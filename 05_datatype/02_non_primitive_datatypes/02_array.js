@@ -1,7 +1,5 @@
 // Array
 
-// Resource
-
 // What
 // - Array is a data type in JavaScript that represents a collection of elements, also known as a list or a sequence.
 

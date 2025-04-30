@@ -1,7 +1,5 @@
 // Object
 
-// Resource
-
 // What
 // - Object is a data type in JavaScript that represents a complex data structure, such as arrays, functions, and custom objects.
 
@@ -22,12 +20,12 @@ const object = {
 };
 
 // Constructor function syntax
-function MyObject() {
+function ConstructorFunction() {
   this.key1 = value1;
   this.key2 = value2;
 }
 
-const object1 = new MyObject();
+const object1 = new ConstructorFunction();
 
 // Example
 const person = {
@@ -44,4 +42,5 @@ person.greet(); // Output: Hello, my name is John
 
 // Note
 // - Objects are mutable, meaning their properties and methods can be changed after they are created.
+// - Even if you declare them with const you can still able to make change.
 
