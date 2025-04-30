@@ -39,3 +39,7 @@ console.log(isNaN(result)); // Output: true
 console.log(Number.isNaN(result)); // Output: true
 
 // - It's important to handle NaN in your code, especially when dealing with user input or calculations, to ensure that your program behaves as expected and doesn't produce unexpected results due to the presence of NaN.
+
+// Analogy
+// - Think of it like having a box labeled "Fruits." Inside the box, you might have apples, bananas, and oranges. But if you also found a rotten apple in there, you might still say it's in the "Fruits" box, even though it's not a good, edible fruit.
+// - So, NaN is like the "rotten apple" in the "Number" box. It's a special value within the number system that signifies "not a valid number result," but JavaScript still classifies it under the general "Number" type.
