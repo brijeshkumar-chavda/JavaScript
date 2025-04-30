@@ -16,6 +16,7 @@ let variableName = null;
 
 // Note
 // -> Null is often used to represent the absence of a value, such as when a function does not return a value or when an object is expected but not available.
+// -> The fact that typeof null returns "object" is a well-known bug from the early days of JavaScript. Due to the potential for breaking existing web code, this incorrect behavior has been maintained for backward compatibility. Remember that null is a primitive value representing the intentional absence of a value, and you should always use strict equality (=== null) to accurately check for it.
 
 // When
 // -> Use Null when you want to represent the absence of a value or when a variable should have a value of null.
