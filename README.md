@@ -2,7 +2,7 @@
 
 - Instructor: [Hitesh Choudhary](https://github.com/hiteshchoudhary)
 - YouTube Channel: [Chai Aur Code](https://www.youtube.com/@chaiaurcode)
-- React Playlist: [Chai Aur JavaScript](https://youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&si=z4Qr3tOcQ2Qek2Yx)
+- JavaScript Playlist: [Chai Aur JavaScript](https://youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&si=Lg-htJbfXrEPPnve)
 
 # Table Of Content
 
