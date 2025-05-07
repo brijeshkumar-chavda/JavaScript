@@ -15,14 +15,15 @@
 // Syntax
 // console.table(variable,array or Object);
 
-// Example: 1 Passing array as argument
+// Example
+// 1. Passing multiple variables
 const variable1 = "value 1";
 const variable2 = "value 2";
 const variable3 = "value 3";
 
 console.table(variable1, variable2, variable3);
 
-// Example: 2 Passing object as argument
+// 2. Passing array
 const variable = [
   {key1: "value1"},
   {key2: "value2"},
@@ -31,7 +32,7 @@ const variable = [
 
 console.table(variable);
 
-// Example: 3
+// 3. Passing object
 const object = {
   key1: "value1",
   key2: "value2",
@@ -44,6 +45,6 @@ console.table(object);
 // - console.table() is a helpful debugging tool, but it should not be used for logging or displaying data in a production environment.
 
 // When
-// - Use console.table() when you need to inspect complex data structures, such as arrays of objects or nested objects, in the browser's console.
-// - Use console.table() to display tabular data in a more readable format for debugging purposes.
-// - Use console.table() to analyze and compare data in a structured manner.
+// - Use it when you need to inspect complex data structures, such as arrays of objects or nested objects, in the browser's console.
+// - Use it to display tabular data in a more readable format for debugging purposes.
+// - Use it to analyze and compare data in a structured manner.
