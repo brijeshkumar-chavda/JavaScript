@@ -8,7 +8,8 @@ var variable;
 variable = "value";
 
 // Redeclare
-// - As you can see your are using same variable name twice. But for value it will take latest updated value.
+// - As you can see your are using same variable name twice.
+// - It will take latest updated value.
 var variable = "value1";
 var variable = "value2";
 

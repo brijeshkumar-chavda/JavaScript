@@ -20,7 +20,7 @@
 
    1. `use strict`
 
-4. Variable
+4. Variable <-
 
    1. `var` Keyword
    2. `let` Keyword

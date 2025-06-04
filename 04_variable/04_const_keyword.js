@@ -34,7 +34,7 @@ function myFunction(parameter) {
 
 // Constant Objects and Arrays
 // - The keyword const is a little misleading.
-// - It does not define a constant value. It defines a constant reference to a value. Because of this...
+// - It does not define a constant value. It defines a constant reference to a value. 
 
 // Can't:
 // - Reassign a constant value
