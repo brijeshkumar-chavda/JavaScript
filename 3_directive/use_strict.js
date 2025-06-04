@@ -13,7 +13,6 @@
 "use strict";
 
 // Example
-// Strict mode example
 function sum(a, b) {
   return a + b;
 }
@@ -28,4 +27,4 @@ console.log(sum(1, "2")); // This will throw a TypeError in strict mode
 // - Use the use strict directive to enable strict mode in your JavaScript code.
 // - Use strict mode to catch common coding errors and enforce best practices.
 // - Use strict mode when working on large projects or collaborating with others to ensure consistent code quality.
-// - Use strict mode when you want to write modern JavaScript code that leverages new features and best practices
+// - Use strict mode when you want to write modern JavaScript code that leverages new features and best practices.
