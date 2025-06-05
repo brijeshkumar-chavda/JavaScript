@@ -13,6 +13,7 @@
 // __proto__
 // - Objects have a special hidden property which is __proto__
 // - This will be either null or references another object.
+// - This __proto__ property is set by the JavaScript engine.
 
 // Prototype
 // - The referred object in the __proto__ property is known as prototype.
@@ -23,7 +24,7 @@
 // - Process: When a property is accessed on an object, the JavaScript engine first checks the object itself, then its prototype, and so on until the end of the chain or the property is found.
 
 // Prototype Inheritance
-// - When we read a property from object, and it’s missing, JavaScript automatically takes it from the prototype.In programming, this is called “prototypal inheritance”.
+// - When we read a property from object, and it’s missing, JavaScript automatically takes it from the prototype. In programming, this is called “prototypal inheritance”.
 
 // Why
 // - The prototype system allows JavaScript to implement inheritance and to share properties and methods across instances.

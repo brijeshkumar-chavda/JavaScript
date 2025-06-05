@@ -1,7 +1,7 @@
 // Directive
 
 // What
-// - "Use strict" is a directive in JavaScript that activates strict mode, a stricter set of rules for interpreting and executing JavaScript code.
+// - It's a directive in JavaScript that activates strict mode, a stricter set of rules for interpreting and executing JavaScript code.
 
 // Why
 // - It's used to catch common coding errors, enforce better coding practices, and enhance security by disallowing potentially unsafe features and behaviors.
