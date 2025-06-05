@@ -34,7 +34,11 @@ console.log(car[carId]);
 // Log the car object
 console.log(car);
 
+// - The symbol property will not show up in a normal object log (it’s non-enumerable).
+// - To see symbol properties, use Object.getOwnPropertySymbols(car).
+
 // Note
+
 // - Symbol doesn't use `new` keyword. Because it's an primitive datatype.
-// - Primitive datatype doesn't required the `new` keyword.
-// - Only Object, Array and Function need it.
+// - Primitive datatype doesn't required the `new` keyword. Because they are basic, immutable values.
+// - Only Object, Array and Function need it because The new keyword is used to create instances.

@@ -77,7 +77,12 @@ Cons
 
 - Inclusive: Think of "inclusive" as including everything. It means something is in or part of a range or group. Imagine a party invitation that says "Everyone is welcome!" - that's inclusive.
 
-- Exclusive: On the other hand, exclusive means something is not included. It's outside of a range or group. Think of a VIP club with a sign that says "Members Only" - that's exclusive.
+- Exclusive: On the other hand, exclusive means something is not included. It's outside of a range or group. Think of a VIP club with a sign \*\*that says "Members Only" - that's exclusive.
+
+# Immutable VS
+
+- Immutable: Cannot be changed after it is created.
+- Mutable: Can be changed after it is created.
 
 # Terminology
 
@@ -121,9 +126,11 @@ Function == Method == Operations == Behaviors
 - Functions used to create new objects.
 
 # What is Prase?
+
 - Parsing is the process of taking a JSON string (which is essentially a text format) and converting it into a data structure that your programming language can use (e.g., an object or dictionary).
 
-# What is Serializes? 
+# What is Serializes?
+
 - In computing, serialization is the process of translating a data structure or object state into a format that can be stored or transmitted and reconstructed later.
 
 # Types of Naming Convention

@@ -20,13 +20,13 @@
 
    1. `use strict`
 
-4. Variable <-
+4. Variable
 
    1. `var` Keyword
    2. `let` Keyword
    3. `const` Keyword
 
-5. Datatype
+5. Datatype <-
 
    1. Primitive Data Type
       1. Number
