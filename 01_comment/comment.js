@@ -1,4 +1,4 @@
-// Topic: Comment
+// Comment
 
 // I am Single line comment
 
