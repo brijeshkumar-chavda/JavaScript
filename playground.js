@@ -1,3 +1,3 @@
-// "use strict";
+console.log(a);
 
-console.log(this);
+var a = 1;
