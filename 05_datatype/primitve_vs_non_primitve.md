@@ -1,21 +1,9 @@
-# What Are The Primitive & Non-Primitive Datatype?
-
-1. Primitive Data Types:
-
-   - **Number**: Represents both integer and floating-point numbers.
-   - **String**: Represents sequences of characters, such as text.
-   - **Boolean**: Represents true or false values.
-   - **Undefined**: Represents a variable that has been declared but hasn't been assigned a value.
-   - **Null**: Represents the intentional absence of any value.
-   - **Symbol**: Introduced in ECMAScript 6 (ES6), symbols are unique and immutable values that are often used as object property keys.
-
-2. Non-Primitive Data Types (Reference, Complex):
-   - **Object**: Represents a collection of key-value pairs, where keys are strings (or symbols) and values can be of any data type.
-   - **Array**: Represents an ordered list of values, indexed by integers.
-   - **Function**: Represents executable code that can be invoked or called.
-
-## Note
-
-- Primitive data types are passed by value
-- Non-Primitive data types (objects, arrays, functions) are passed by reference. 
-- This distinction can have implications for how values are copied and shared between variables.
+| Feature             | Primitive Data Types                                                                      | Non-Primitive Data Types (Objects)                                                                             |
+| :------------------ | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
+| **Value Storage**   | Stores the **actual value** directly.                                                     | Stores a **reference** (memory address) to the value.                                                          |
+| **Mutability**      | **Immutable** (Value cannot be changed; any operation creates a new value).               | **Mutable** (Value can be changed in memory).                                                                  |
+| **Copying**         | **"Copy by Value"**: Copying creates a completely **independent duplicate** of the value. | **"Copy by Reference"**: Copying creates a new variable that **points to the same data**.                      |
+| **Comparison**      | Compared by **value** (e.g., `10 === 10` is true).                                        | Compared by **reference** (e.g., `{a:1} === {a:1}` is false because they are two different objects in memory). |
+| **Number of Types** | **Seven** (`string`, `number`, `bigint`, `boolean`, `undefined`, `null`, `symbol`).       | **One** primary type: **`object`** (includes arrays, functions, dates, etc.).                                  |
+| **`typeof` Output** | Returns the type name (e.g., `"string"`, `"number"`, `"boolean"`).                        | Returns `"object"` (or `"function"`, which is a special type of object) or `"object"` for `null`.              |
+| **Example**         | `let x = 5;`                                                                              | `let arr = [5];`                                                                                               |

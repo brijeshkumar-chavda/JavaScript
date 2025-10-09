@@ -1,6 +1,5 @@
 // `var` Keyword (Not Recommended)
 
-
 // Note
 // - It can be initialized later.
 // - It can be reassigned.

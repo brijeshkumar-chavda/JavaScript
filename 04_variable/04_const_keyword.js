@@ -1,9 +1,9 @@
-// `const` Keyword
+// Topic: `const` Keyword
 
-// Syntax
+// Syntax:
 // const constantName = value;
 
-// Example
+// Example:
 
 // Initialize & declare at the same time
 const constant = "value";
