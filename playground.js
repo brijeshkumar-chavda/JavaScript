@@ -1,7 +1,4 @@
-// Infinity
-// - Infinity is a special numeric value representing infinity.
-// - It is greater than any other number.
-// - It can be positive or negative.
-// - It is a property of the global object.
-let infinity = Infinity;
-let negativeInfinity = -Infinity;
+let myString = "Hello";
+let upperCase = myString.toUpperCase(); // This works because strings are objects with methods
+console.log(myString); // Output: "Hello, World!"
+console.log(upperCase); // Output: "Hello, World!"

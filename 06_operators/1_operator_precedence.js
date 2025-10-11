@@ -1,16 +1,16 @@
-// Operator Precedence
+// Topic: Operator Precedence
 
-// What
-// - When we work with math expression in JavaScript it's evaluate multiplication and division first after that it will consider addition and subtraction.
+// Q. What is operator precedence?
+// -> When we work with math expression in JavaScript it's evaluate multiplication and division first after that it will consider addition and subtraction.
 
-let variable = (4 / 2) * 2 + 1;
-console.log(myVariable1);
+let variable = 4 / 2 * 2 + 1;
+console.log(variable);
 
-// How
-// - To calculate math expression manually in JavaScript we use small bracket (). We surround which expression we need to evaluate first.
+// Q. How to manually evaluate expression?
+// -> To calculate math expression manually in JavaScript we use small bracket (). We surround which expression we need to evaluate first.
 
 let variable1 = (4 / 2) * (2 + 1);
-console.log(myVariable2);
+console.log(Variable1);
 
 // Note
 // Adding string with number in JavaScript treat number as a string.
