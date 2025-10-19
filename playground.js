@@ -1,4 +1,10 @@
-let myString = "Hello";
-let upperCase = myString.toUpperCase(); // This works because strings are objects with methods
-console.log(myString); // Output: "Hello, World!"
-console.log(upperCase); // Output: "Hello, World!"
+var a = 10;
+
+function fun() {
+  if (a == 10) {
+    var a = 34;
+    console.log(a);
+  }
+}
+
+fun();
