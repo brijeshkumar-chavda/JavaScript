@@ -1,4 +1,4 @@
-// Escape Sequence
+// Topic: Escape Sequence
 
 // console.log("\'Single quote\'");
 // console.log("\"Double quote\"");

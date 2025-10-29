@@ -1,7 +1,7 @@
-// String Conversion
+// Topic: String Conversion
 
 // Number to String
-const number = 100;
+let number = 100;
 number = String(100); // Using string constructor
 console.log(typeof number);
 

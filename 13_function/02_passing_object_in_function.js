@@ -1,19 +1,19 @@
-// Passing Object In Function
+// Topic: Passing Object in Function
 
-const myObject = {
+const object = {
   key1: "value1",
   key2: "value2",
 };
 
-function handleObject(getObject) {
-  return console.log(`Hey! I'm the ${getObject.key1}!`);
+function function1(parameter) {
+  return console.log(`Hey! I'm the ${parameter.key1}!`);
 }
 
 // Passing an object reference as a argument in the function.
-handleObject(myObject);
+function1(object);
 
 // Passing literally an object as a argument in the function.
-handleObject({
+function1({
   key1: "value1",
   key2: "value2",
 });

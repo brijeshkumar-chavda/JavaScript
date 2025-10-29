@@ -8,6 +8,9 @@
 // -> Error Handling: You can use typeof in conditional statements to check for unexpected data types and handle errors gracefully. For example, a function might expect a number as input, and you can use typeof to check before performing calculations.
 // -> Debugging: typeof can be a valuable tool during debugging to inspect the data types of variables and identify potential issues
 
+// Note:
+// -> typeof returns a type in string format.
+
 // Syntax:
 // const variable = "value";
 // console.log(typeof variable);

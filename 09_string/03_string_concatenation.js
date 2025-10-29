@@ -1,5 +1,6 @@
-// String Concatenation
+// Topic: String Concatenation
 
+// Using + operator to concatenate strings
 const string1 = "String";
 const string2 = "Concatenation";
 const result = string1 + " " + string2;

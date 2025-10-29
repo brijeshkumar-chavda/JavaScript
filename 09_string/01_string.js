@@ -1,4 +1,4 @@
-// String
+// Topic: String
 
 // Single quote
 console.log("Single quotes");
@@ -6,7 +6,7 @@ console.log("Single quotes");
 // Double quote
 console.log("Double quotes");
 
-// Backtick (Recommended)
+// Backtick
 console.log(`Backtick`);
 
 // Multiline string use backtick
