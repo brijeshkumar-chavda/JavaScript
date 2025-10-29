@@ -1,5 +1,8 @@
+var a = 1;
+
 function function1() {
-  return "Hello, World!";
+  var a = 2;
+  return a;
 }
 
-console.log(typeof function1);
+console.log(function1());
