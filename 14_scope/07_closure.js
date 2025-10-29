@@ -24,10 +24,16 @@ function outerFunction() {
     return outerVariable;
   };
 }
-const closureFunction = outerFunction();
-console.log(closureFunction()); // Output: 1
+
+const variable = outerFunction();
+// -> First the `outerFunction();` will execute and it will return the `returnedFunction` reference to the `variable`.
+// -> Now when we call `variable();` it will execute the `returnedFunction` which has access to the `outerVariable` even after the `outerFunction` has finished executing.
+
+console.log(variable()); // Output: 1
 
 // Example:
+// -> This is called a factory function which is similar to a class constructor but using closures to create private variables. Where create instance using the class keyword.
+
 function createCounter() {
   let count = 0; // The private variable
   return function () {
