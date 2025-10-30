@@ -1,10 +1,5 @@
-function outerFunction() {
-  let a = 1;
-  function innerFunction() {
-    let a = 11;
-    return a;
-  }
-  return innerFunction();
+function f(a, b, c) {
+  return a + b + c;
 }
 
-console.log(outerFunction());
+console.log(f(1, 2));

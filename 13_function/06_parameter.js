@@ -2,6 +2,7 @@
 
 // Positional Parameters
 // -> This is the most common way. You define a fixed list of parameters, and arguments are assigned to them based on their position.
+// -> This parameters are required by default. If you don't provide an argument for a parameter, it will be undefined.
 function function1(parameter1, parameter2) {
   return parameter1 + parameter2;
 }
