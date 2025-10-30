@@ -9,4 +9,4 @@ const variable = function (parameter1, parameter2) {
   return parameter1 + parameter2;
 };
 
-variable(1, 2); // Returns 3
+arrowFunction1(1, 2); // Returns 3

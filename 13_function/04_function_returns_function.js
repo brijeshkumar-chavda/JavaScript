@@ -1,4 +1,4 @@
-// Topic: Function Returning Function OR Higher Order Function
+// Topic: Function Returning Function
 
 // Q.What is function returning function?
 // -> When a function returns another function, the returned function can be assigned to a variable and invoked later.
@@ -14,4 +14,4 @@ function outerFunction() {
 const variable = outerFunction();
 
 // Call the returned function
-variable();
+arrowFunction1();

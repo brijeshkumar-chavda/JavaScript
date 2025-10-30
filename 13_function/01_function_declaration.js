@@ -55,4 +55,4 @@ function function1() {
 }
 
 const variable = function1();
-console.log(variable);
+console.log(arrowFunction1);

@@ -1,11 +1,11 @@
-// First Class Function
+// Topic: First Class Function
 
-// What
-// - In JavaScript, functions are considered "first-class" citizens, It means they can be treated just like any other value.
+// Q. What is First Class Function?
+// -> In JavaScript, functions are considered "first-class" citizens, It means they can be treated just like any other value.
 
 // Functions can be assigned to variables
 const variable = function () {
-  console.log("Hello World");
+  return "I am function assigned to variable";
 };
 
 // Functions can be stored in data structures
@@ -14,30 +14,30 @@ variable1();
 
 // Functions can be passed as arguments to other functions
 function function1() {
-  console.log("Hello World");
+  return "I am function1 passed as argument";
 }
 
 function function2(function1) {
-  function1();
+  return function1();
 }
 
 // Functions can be returned as values from other functions
 function function3() {
   return function function4() {
-    console.log("Hello World");
+    return "I am function4 returned from function3";
   };
 }
 
 // Functions can be defined inside other functions (nested functions or closures)
 function outerFunction() {
   function innerFunction() {
-    console.log("Hello World, I'm Inner function");
+    return " I am Inner function";
   }
-  innerFunction(); // invoking the nested function
+  innerFunction();
 }
 outerFunction();
 
 // Functions can be invoked immediately (immediately invoked function expressions)
 (function () {
-  console.log("Hello World");
+  return "I am Immediately Invoked Function Expression";
 })();
