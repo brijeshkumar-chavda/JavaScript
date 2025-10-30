@@ -1,10 +1,12 @@
-// Anonymous Function
+// Topic: Anonymous Function
 
-// What
-// - A function defined without a separate name, typically using function (parameter) { ... }.
-// - Focuses on the lack of a specific name.
-// - It creates a function that can only be accessed through the variable it's assigned to.
+// Q. What is an anonymous function?
+// -> A function defined without a separate name, typically using function (parameter) { ... }.
+// -> It creates a function that can only be accessed through the variable it's assigned to.
 
-const myVariable = function (parameter1, parameter2) {
+// Syntax:
+const variable = function (parameter1, parameter2) {
   return parameter1 + parameter2;
 };
+
+variable(1, 2); // Returns 3
