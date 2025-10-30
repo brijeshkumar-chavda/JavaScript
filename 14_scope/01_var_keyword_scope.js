@@ -11,9 +11,10 @@
 
 // Example:
 function function1() {
+  var variable = 1;
   if (true) {
     // variable declared with var inside if block
-    var variable = 10;
+    var variable = 2;
   }
 
   // Accessing variable outside the if block but inside the function

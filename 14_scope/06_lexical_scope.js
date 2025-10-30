@@ -10,7 +10,7 @@
 // -> It continues this chain until it reaches the global scope.
 
 // Note:
-// -> If the inner scope has a variable with the same name as an outer scope, the inner variable takes precedence (shadowing).
+// -> If the inner scope has a variable with the same name as an outer scope, the inner variable takes shadowing.
 
 // Syntax:
 function outerFunction() {
