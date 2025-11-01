@@ -1,34 +1,25 @@
 // Inheritance
 
-// Q. What is Inheritance?
-// -  inheritance refers to the mechanism by which an object can inherit properties and methods from another object. It allows you to create a hierarchy of objects where child objects can inherit the characteristics of their parent objects. Inheritance is achieved through prototype chaining in JavaScript.
+// Backstory
+// - Do you remember we are using the __proto__ (Prototype) to connect two object to share parent object properties and method for child object.
+// - We are doing same thing here. Just form of class and extends keywords. It's syntactic sugar.
+// - Like how we create object using the object literal, here we are using class to create object (Fancy name is "instance").
+// - Now extending so called class to another class via `extends` keyword === __proto__
 
-// Parent class
-class Animal {
-  constructor(name) {
-    this.name = name;
-  }
-
-  eat() {
-    console.log(`${this.name} is eating.`);
-  }
-}
-
-// Child class inheriting from Animal
-class Dog extends Animal {
-  constructor(name, breed) {
-    this.breed = breed;
-  }
-
-  bark() {
-    console.log(`${this.name} is barking.`);
+// Syntax
+class ParentClass {
+  parentMethod() {
+    console.log(`I am parent class method`);
   }
 }
 
-// Creating instances of the classes
-const myAnimal = new Animal("Leo");
-myAnimal.eat(); // Output: Leo is eating.
+// Child class inheriting from ParentClass using the extends keyword
+class ChildClass extends ParentClass {
+  childMethod() {
+    console.log(`I am child class method`);
+  }
+}
 
-const myDog = new Dog("Max", "Labrador");
-myDog.eat(); // Output: Max is eating.
-myDog.bark(); // Output: Max is barking.
+const instance = new ChildClass("Child");
+console.log(instance.parentMethod());
+console.log(instance.childMethod());
