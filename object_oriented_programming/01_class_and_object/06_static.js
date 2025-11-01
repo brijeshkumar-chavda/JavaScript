@@ -12,13 +12,13 @@
 
 // Syntax
 class ClassName {
-  static staticPropertyName = "value";
-  static staticMethodName() {
+  static variable = "I am static variable";
+  static method() {
     console.log(`I am static method`);
   }
 }
 
-console.log(ClassName.staticMethodName());
+console.log(ClassName.method());
 
 // Example
 class User {
@@ -27,7 +27,7 @@ class User {
   constructor(username, email, password) {
     this.username = username;
     this.email = email;
-    this.password = username;
+    this.password = password;
   }
 
   static createId() {

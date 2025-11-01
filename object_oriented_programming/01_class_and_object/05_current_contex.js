@@ -7,13 +7,18 @@
 // - Suppose you have two object and both of them have same method. If you call the method how it will going to check that which object's method are you trying to access.
 // - By using `this` keyword you are telling that which MONDAY are you talking about. I mean which object you are trying to access.
 
-const user = {
-  username: "test user",
-  userId: "123",
+// Example
+const object = {
+  key1: "value1",
+  key2: "value2",
 
-  getUserName: function () {
-    console.log(username); // It doesn't know which user are you talking about.
-    console.log(this.username); // By using this it will refer to current object.
-    // user.getUserName === this.username
+  method: function () {
+    // It doesn't know which user are you talking about.
+    console.log(key1);
+
+    // By using this it will refer to current object.
+    console.log(this.key1);
+
+    // object.method === this.method
   },
 };
