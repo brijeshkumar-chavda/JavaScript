@@ -32,7 +32,7 @@ const object1 = {
 console.log(object1.method());
 
 // Arrow function always refer to global object
-// - If you are thinking that.If `this` keyword is always refer to global object for arrow function. Why can't we just rap the object around it. Then it will sure stop referring to global object and show the wrapper object.
+// - If you are thinking that.If `this` keyword is always refer to global object for arrow function. Why can't we just wrap the object around it. Then it will sure stop referring to global object and show the wrapper object.
 const outerObject = {
   key: "value",
   innerObject: {
