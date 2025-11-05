@@ -11,14 +11,14 @@
 // - You can define a static method or property by using the static keyword inside a class definition.
 
 // Syntax
-class ClassName {
+class Class1 {
   static variable = "I am static variable";
   static method() {
     console.log(`I am static method`);
   }
 }
 
-console.log(ClassName.method());
+console.log(Class1.method());
 
 // Example
 class User {
@@ -42,3 +42,7 @@ class User {
 const userOne = new User("userOne");
 // console.log(userOne.createId());
 console.log(User.createId());
+
+// TODO
+// - this example only show the static method.
+// - find the example and understand how static variable is accessed.
