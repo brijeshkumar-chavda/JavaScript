@@ -8,6 +8,7 @@
 
 // Note
 // - Private variable should be declare at a class level.
+// - They can be only use inside the class only.
 // - It use # symbol to create a private property and method.
 // - These variable doesn't use let or const keyword because they property of instance which is created from the class. For example property of object are also not declare with the let or const keyword. Only regular variable are declare with the let and const keyword.
 
@@ -22,3 +23,8 @@ class Class1 {
     console.log("I am Private Method");
   }
 }
+
+// You can't access them directly from the class.
+const instance = new Class1();
+console.log(instance.#privateProperty);
+instance.#privateMethod();
