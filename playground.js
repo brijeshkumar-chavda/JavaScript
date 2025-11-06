@@ -1,3 +1,9 @@
-function abc(){}
+function abc() {
+  function xyz() {
+    console.log("xyz");
+  }
+}
 
-console.log(Object.getPrototypeOf(abc));
+abc.prototype.xyz = function () {
+  console.log("xyz");
+};
