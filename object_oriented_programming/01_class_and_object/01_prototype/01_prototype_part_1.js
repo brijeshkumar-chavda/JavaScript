@@ -2,7 +2,7 @@
 
 // Q. What is Prototype?
 // -> In programming world there are different ways to write the code. This is know as a programming paradigm.
-// -> JavaScript use prototype-based programming paradigm which is a type of object-oriented programming (OOP).
+// -> JavaScript use prototype-based programming paradigm which is a similar concept like object-oriented programming (OOP).
 // -> Other programming languages like Java, C++ use class-based programming paradigm.
 
 // Inheritance:
