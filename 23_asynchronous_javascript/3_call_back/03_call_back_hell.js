@@ -4,21 +4,21 @@
 // https://youtu.be/NOlOw03qBfw?si=VFjF1eUuPxogVf1a
 // https://youtu.be/bx9xYPt2tdc
 
-https: function firstFunction(callback) {
+function function1(callback) {
   setTimeout(function () {
     console.log("First function executed.");
     callback();
   }, 1000);
 }
 
-function secondFunction(callback) {
+function function2(callback) {
   setTimeout(function () {
     console.log("Second function executed.");
     callback();
   }, 3000);
 }
 
-function thirdFunction(callback) {
+function function3(callback) {
   setTimeout(function () {
     console.log("Third function executed.");
     callback();
@@ -26,9 +26,9 @@ function thirdFunction(callback) {
 }
 
 // Callback Hell
-firstFunction(function () {
-  secondFunction(function () {
-    thirdFunction(function () {
+function1(function () {
+  function2(function () {
+    function3(function () {
       console.log("All functions executed.");
     });
   });
