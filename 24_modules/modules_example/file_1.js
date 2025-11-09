@@ -5,6 +5,6 @@ export default class MyClass {
   }
 }
 
-function fun() {
+function function1() {
   console.log("I am export function.");
 }
