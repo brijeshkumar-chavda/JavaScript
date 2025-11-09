@@ -30,7 +30,7 @@ async function myAsyncFunction() {
 const promise = function () {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("Data fetched successfully!");
+      // resolve("Data fetched successfully!");
       reject("Error fetching data");
     }, 2000);
   });
@@ -38,6 +38,7 @@ const promise = function () {
 
 async function consumePromise() {
   try {
+    console.log("Fetching data...");
     const response = await promise();
     console.log(response);
   } catch (error) {
